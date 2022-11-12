@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.header-search {
+  padding: 8px 16px;
+  gap: 8px;
+  width: 393px;
+  height: 40px;
+  background: #f5f5f5;
+  border-radius: 20px;
+}
+
+.btn-login {
+  padding: 16px;
+  gap: 10px;
+  width: 182px;
+  height: 51px;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+  background-color: #ffff;
+}
+
+.banner{
+    display: flex;
+    background-image: image('../img/banner.jpg');
+}
