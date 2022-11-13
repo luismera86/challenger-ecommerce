@@ -200,7 +200,6 @@ form > button {
   color: #eaf2fd;
   margin-top: 0.5rem;
   border: 1px solid #2a7ae4;
-
 }
 
 .autor {
@@ -220,10 +219,10 @@ form > button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
-.main-login > h2{
+.main-login > h2 {
   margin-top: 3rem;
   font-size: 18px;
   font-weight: 700;
@@ -255,3 +254,44 @@ form > button {
 }
 
 /* adminMenu.html */
+
+.main-admin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  margin-top: 3rem;
+}
+
+.main-admin > h2 {
+  margin-top: 3rem;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main-admin > form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.main-admin > form > input {
+  width: 559px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  padding: 0.3rem;
+}
+
+.main-admin > form > button {
+  width: 559px;
+  height: 56px;
+  left: 508px;
+  top: 435px;
+  background: #2a7ae4;
+  border: 1px solid #2a7ae4;
+}
