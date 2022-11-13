@@ -4,11 +4,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
 /* 
 font-family: 'Raleway', sans-serif;
 */
+
+/*  Index.html */
 
 header {
   display: flex;
@@ -37,7 +37,6 @@ header {
 
 .banner {
   display: flex;
-  width: 100vw;
   height: 20rem;
   background-image: url('../img/banner.png');
   background-size: cover;
@@ -65,6 +64,189 @@ header {
   font-family: 'Raleway', sans-serif;
   margin-top: 1rem;
   border: 1px solid #2a7ae4;
+}
 
+.section-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar-gallery > div > a {
+  text-decoration: none;
+  color: #2a7ae4;
+}
+
+.toolbar-gallery > h2 {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.item-title {
+  font-size: 14px;
+}
+
+.item-price {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card {
+  padding: 0.3rem;
+}
+
+.card > a {
+  text-decoration: none;
+  color: #2a7ae4;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  height: 368px;
+  justify-content: space-around;
+  background: #eaf2fd;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.links-footer > ul {
+  list-style: none;
+  align-self: center;
+  justify-self: center;
+}
+
+.links-footer > ul > li {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-footer > form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form > input {
+  width: 560px;
+  height: 56px;
+  border-radius: 4px;
+  gap: 4px;
+  margin-top: 0.5rem;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  padding: 0.3rem;
+}
+
+form > textarea {
+  width: 560px;
+  height: 82px;
+  border-radius: 4px;
+  gap: 4px;
+  margin-top: 1rem;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  padding: 0.3rem;
+}
+
+form > button {
+  width: 144px;
+  height: 51px;
+  background: #2a7ae4;
+  color: #eaf2fd;
+  margin-top: 0.5rem;
+}
+
+.autor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 10px;
+  height: 4rem;
+}
+
+/* login.html */
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+
+.main-login > h2{
+  margin-top: 3rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-login > form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.main-login > form > input {
+  width: 423px;
+  height: 63px;
+  background: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  padding: 0.3rem;
+}
+
+.main-login > form > button {
+  width: 423px;
+  height: 62px;
+  left: 508px;
+  top: 435px;
+  background: #2a7ae4;
 }

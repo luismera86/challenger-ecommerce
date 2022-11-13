@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>TiendaWeb</title>
   </head>
@@ -27,24 +32,54 @@
           <input type="button" value="Ver Consolas" />
         </div>
       </section>
-      <section>
-        <!-- Colocar la galería de productos -->
-
+      <section class="section-items">
         <!-- Galería categoría StarWars -->
-        <div class="toolba-gallery">
-          <h2>Star Wars</h2>
-          <div>
-            <a href="#">Ver todo</a>
-            <img src="" alt="arrow" />
+        <div class="gallery">
+          <div class="toolbar-gallery">
+            <h2>Star Wars</h2>
+            <div>
+              <a href="#">Ver todo</a>
+              <img src="./assets/img/arrow.png" alt="arrow" />
+            </div>
           </div>
-        </div>
-        <div class="cards">
-          <!-- Aquí vam todas las card de la categoría -->
-          <div class="card">
-            <img src="#" alt="thumbnail card" />
-            <p>Producto XYZ</p>
-            <p>$ 600</p>
-            <a href="#">Ver producto</a>
+          <div class="cards">
+            <!-- Aquí vam todas las card de la categoría -->
+            <div class="card">
+              <img src="./assets/img/star-wars-thumnail/unsplash_6FDXGY9J6y4.png" alt="thumbnail card" />
+              <p class="item-title">Producto XYZ</p>
+              <p class="item-price">$ 600</p>
+              <a href="#">Ver producto</a>
+            </div>
+            <div class="card">
+              <img src="./assets/img/star-wars-thumnail/unsplash_6FDXGY9J6y4.png" alt="thumbnail card" />
+              <p class="item-title">Producto XYZ</p>
+              <p class="item-price">$ 600</p>
+              <a href="#">Ver producto</a>
+            </div>
+            <div class="card">
+              <img src="./assets/img/star-wars-thumnail/unsplash_6FDXGY9J6y4.png" alt="thumbnail card" />
+              <p class="item-title">Producto XYZ</p>
+              <p class="item-price">$ 600</p>
+              <a href="#">Ver producto</a>
+            </div>
+            <div class="card">
+              <img src="./assets/img/star-wars-thumnail/unsplash_6FDXGY9J6y4.png" alt="thumbnail card" />
+              <p class="item-title">Producto XYZ</p>
+              <p class="item-price">$ 600</p>
+              <a href="#">Ver producto</a>
+            </div>
+            <div class="card">
+              <img src="./assets/img/star-wars-thumnail/unsplash_6FDXGY9J6y4.png" alt="thumbnail card" />
+              <p class="item-title">Producto XYZ</p>
+              <p class="item-price">$ 600</p>
+              <a href="#">Ver producto</a>
+            </div>
+            <div class="card">
+              <img src="./assets/img/star-wars-thumnail/unsplash_6FDXGY9J6y4.png" alt="thumbnail card" />
+              <p class="item-title">Producto XYZ</p>
+              <p class="item-price">$ 600</p>
+              <a href="#">Ver producto</a>
+            </div>
           </div>
         </div>
         <div>
@@ -57,12 +92,36 @@
     </main>
     <footer>
       <!-- Colocar logo y un formulario de contacto -->
-      <div>
+      <div class="logo-footer">
         <!-- Logo -->
+        <img src="./assets/img/footer/Vector.png" alt="logo-footer" />
+        <img src="./assets/img/footer/AluraGeek.png" alt="AluraGeek" />
+        <img src="./assets/img/footer/AluraGeek (1).png" alt="AluraGeek-1" />
       </div>
-      <div>
+      <div class="links-footer">
+        <!-- Lista de links -->
+        <ul>
+          <li>Quienes somos</li>
+          <li>Política de privacidad</li>
+          <li>Programa de fidelidad</li>
+          <li>Nuestras tiendas</li>
+          <li>Quiero ser franquiciado</li>
+          <li>Anuncie aquí</li>
+        </ul>
+      </div>
+      <div class="form-footer">
         <!-- Formulario -->
+        <form>
+          <label>Hable con nosotros</label>
+          <input type="text" placeholder="Nombre">
+          <textarea id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+          <button type="submit">Enviar mensaje</button>
+        </form>
       </div>
     </footer>
+    <div class="autor">
+      <p>Desarrollado por Luis Mera</p>
+      <p>2022</p>
+    </div>
   </body>
 </html>
