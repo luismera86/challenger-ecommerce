@@ -174,9 +174,9 @@ form > input {
   gap: 4px;
   margin-top: 0.5rem;
   border: 1px solid #fff;
-  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
-  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
   padding: 0.3rem;
 }
 
@@ -187,9 +187,9 @@ form > textarea {
   gap: 4px;
   margin-top: 1rem;
   border: 1px solid #fff;
-  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
-  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
   padding: 0.3rem;
 }
 
@@ -199,6 +199,8 @@ form > button {
   background: #2a7ae4;
   color: #eaf2fd;
   margin-top: 0.5rem;
+  border: 1px solid #2a7ae4;
+
 }
 
 .autor {
@@ -237,16 +239,19 @@ form > button {
   height: 63px;
   background: #ffffff;
   border-radius: 4px;
-  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
-  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
   padding: 0.3rem;
 }
 
 .main-login > form > button {
-  width: 423px;
   height: 62px;
+  width: 423px;
   left: 508px;
   top: 435px;
   background: #2a7ae4;
+  border: 1px solid #2a7ae4;
 }
+
+/* adminMenu.html */
